@@ -1,4 +1,3 @@
-packrat::on()
 
 print("BEGIN IdentifyFailures.R")
 
