@@ -12,7 +12,7 @@ Data<-args$Rdata
 
 print(Data)
 
-file.copy(Data, "/decon_tool/shinyGUI/Data.RData",overwrite=TRUE)
+file.copy(Data, "shinyGUI/Data.RData",overwrite=TRUE)
 
 runApp("shinyGUI",launch.browser=T)
 
